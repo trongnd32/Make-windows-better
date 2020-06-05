@@ -1,0 +1,13 @@
+0. open Regedit
+1. Go to
+Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize
+
+change EnableTransparency to 0
+then restart
+
+2.Go to
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+
+create DWORD-32bit name 
+UseOLEDTaskbarTransparency
+set value is 1

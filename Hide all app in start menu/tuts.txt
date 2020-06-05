@@ -1,0 +1,2 @@
+Go to Setting -> Personalization
+then toggle Show all list in Start menu

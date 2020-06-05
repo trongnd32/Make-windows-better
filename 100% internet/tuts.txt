@@ -1,0 +1,3 @@
+run gpedit.msc
+go to Administrative Templates \ Network \ QoS Packet Scheduler \ 
+set Limit reservable bandwidth = 0
