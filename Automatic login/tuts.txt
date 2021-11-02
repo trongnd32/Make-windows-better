@@ -1,2 +1,4 @@
+Go to Sign in option, turn off Require Windows Hello sign-in for Microsoft accounts
+
 in Run dialog: Netplwiz
 uncheck in box Users must enter a user name and password to use this computer

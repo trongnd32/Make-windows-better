@@ -1,0 +1,16 @@
+https://viblo.asia/p/thay-doi-giao-dien-powershell-nham-chan-nhu-1-hacker-thuc-thu-djeZ1v0YlWz
+
+chạy lệnh sau:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+
+Set-PoshPrompt
+notepad $PROFILE
+
+
+paste các dòng này vào file vừa mở, có thể thay Paradox bằng theme khác:
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-PoshPrompt Operator
